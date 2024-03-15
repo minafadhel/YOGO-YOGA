@@ -1,0 +1,244 @@
+/*Forside*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #000000cc;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        nav {
+            background-color: #0000007f;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        
+       
+        
+        }
+    
+main{
+    display: contents;
+}
+
+
+        section {
+            padding: 30px;
+            text-align: center;
+            background-color: #fffbfb;
+            text-align: left;
+         
+ .textbox {
+                background-color: #635a5a49;
+                border: 1px solid #878484;
+                padding: 30px;
+                border-radius: 3px;
+                margin: 5px;
+            }
+            
+        }
+        footer {
+            background-color: #312f2f;
+            color: #fff;
+            text-align: left;
+            padding: 20px;
+            position: flex-end;
+            bottom: 0%;
+            width: 100%;
+        }
+
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+    
+        }
+        
+        .button:hover {
+            background-color: #ebe9e9;
+        
+        }
+        
+         
+        .page-wrapper {
+            display:flex;
+            flex-direction: column;
+            width: 50vw;
+            height: 50vh;
+        }
+        
+        .article-wrapper{
+        
+            background-color: rgba(129, 123, 123, 0.265);
+            display: flex;
+            opacity: 50%;
+            flex-direction: column;
+            align-self:center;
+            width: 45vw;
+            height: 75vh;
+        }
+        
+        
+        
+    
+        
+        #knap{
+        background-color:#929292d1;
+        font-style: thin;
+        shape-margin: 10px;
+        color: rgba(234, 228, 228, 0.851);
+        padding: 10px 20px; /* Sørger for knappens størrelse */
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        bottom: 40px; /* Afstand fra bunden af skærmen */
+        right: 40px; /* Afstand fra højre side af skærmen */
+        cursor: pointer; /* Ændrer musen over knappen, så det er tydeligt, at det er et link */
+        
+        }
+        
+        
+        /* Omos */
+
+        omos.html{
+          background-color: rgb(249, 249, 249);  
+        }
+        .textbox {
+                background-color: #635a5a49;
+                border: 1px solid #878484;
+                padding: 30px;
+                border-radius: 3px;
+                margin: auto;
+                position: center;
+            }
+        .page-wrapper {
+            display: flex;
+            flex-direction:col;
+            width: 100vw;
+            height: 100vh;
+            position: center;
+        }
+
+        
+        .header-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 15vh;
+            width: 100vw;
+        }
+        
+        .omos-header {
+            font-size: 58px;
+            font-family: 'Times New Roman', Times, serif;
+            position: center;
+            
+        }
+        
+        .img-wrapper {
+            display:flex;
+            align-self: center;
+            width: 360px;
+            height: 530px;
+        }
+        
+    
+        .omos-img {
+            display: flex;
+            width: 80%;
+            height: 80%;
+            position: center;
+        }
+        
+        
+        
+        
+       
+        
+    /* Tilmelding*/
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f6f6f6;
+        }
+        
+        form {
+            max-width: 700px;
+            margin: auto;
+            background-color: #8c8c8c;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(90, 85, 85, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        div {
+            margin-bottom: 5px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            text-decoration: solid;
+        }
+        
+        input[type="Fornavn"],
+        input[type="Efternavn"],
+
+        input[type="email"],
+        input[type="Bekræft email"],
+        textarea {
+            width: 90%;
+            padding: 10px;
+            border: 5px solid #3c3b3b;
+            border-radius: 3px;
+           
+        }
+        
+        button[type="Svaerhedsgrad"] {
+            background-color: #6c7b6d;
+            color: rgb(37, 34, 34);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 2px;
+            cursor:pointer;
+        }
+        
+        
+        /* Kontakt os*/
+        
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+         
+        .img{
+            position: center;
+        }
+        
+        .ks-img{
+            position: center;
+            display:flex;
+            width: 50%;
+            height: 50%;
+            position: center;
+        }
