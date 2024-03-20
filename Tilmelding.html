@@ -1,61 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="css.css">
-
 <head>
+    <link rel="stylesheet" href="css.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tilmelding</title>
 </head>
 <header>
-  <h1>Yogo Yoga</h1>
-</header>
-<nav>
-  <a href="index.html">Hjem</a>
-  <a href="Omos.html">Om os</a>
-  <a href="Tilmelding.html">Tilmelding</a>
-  <a href="niveauer.html">Niveauer</a>
-  <a href="kontakt.html">Kontakt os</a>
+  <img src="/Images/Logo yoga (125 x 125 px)-2.png" alt="logo-img" class="logo-img"></header>
+  <nav>
+    <a href="Index.html">Hjem</a>
+    <a href="Tilmelding.html">Tilmelding</a>
+    <a href="niveauer.html">Niveauer</a>
+    <a href="Omos.html">Om os</a>
+    <a href="kontakt1.html">Kontakt os</a>
 
-  </ul>
-</nav>
+    </ul>
+ </nav>
 
-<h1>Tilmeld dig</h1>
-<form>
-    <label for="Fornavn">Fornavn:</label>
-    <br>
-    <input type="text" id="Fornavn" name="Fornavn">
-    
-    <label for="lname">Efternavn:</label>
-    <input type="text" id="lname" name="Efternavn">
-  </form>
-  <section> 
-  <br>
-  <form>
-    <label for="mail">E-mail:</label><br>
-    <input type="text" id="mail" name="E-mail"><br>
-    <label for="bm">Bekræft E-mail:</label><br>
-    <br>
-    <input type="text" id="bm" name="Bekræft E-mail">
-  </form>
-  <br>
-  <form>
+
+<div class="container">
+<form action="#" method="post">
     <div>
-      <label for="svaerhedsgrad">Vælg Niveau:</label>
-      <select id="svaerhedsgrad" name="svaerhedsgrad">
-          <option value="beginner">Begynder</option>
-          <option value="intermediate">Medium</option>
-          <option value="advanced">Avanceret</option>
-      </select>
-  </div>
-    <button class="button button1">Tilmeld</button>   
-<br>
+        <label for="fornavn">Fornavn:</label>
+        <input type="text" id="fornavn" name="fornavn" required>
+        <br>
+    </div>
+    <div>
+        <label for="efternavn">Efternavn:</label>
+        <input type="text" id="efternavn" name="efternavn" required>
+        <br>
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+    </div>
+    <div>
+        <label for="bekraeft_email">Bekræft e-mail:</label>
+        <input type="email" id="bekraeft_email" name="bekraeft_email" required>
+        <br>
+    </div>
+    <div>
+        <label for="niveau">Niveau:</label>
+        <select id="niveau" name="niveau">
+            <option value="begynder">Begynder</option>
+            <option value="Medium">Medium</option>
+            <option value="avanceret">Avanceret</option>
+        </select>
+    </div>
+    <button type="submit">Tilmeld</button>
+</form>
+</div>
+
+</body>
+</html>
+
 
 </section>
+<br>
+<br>
 <footer>
-  <p>&copy; 2024 Yogo Yoga. All rights reserved.</p>
-</footer>
-
+    <div class="footer-content">
+      <p> &copy; 2024 Yogo Yoga. Alle rettigheder forbeholdes.</p>
+      <ul>
+        <li><a href="insta">Instagram</a></li>
+        <li><a href="facebook">Facebook</a></li>
+        
+      </ul>
+    </div>
 <body>
     
 </body>
